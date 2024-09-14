@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Time</title>
+    <style>
+        img{
+            height: 600px;
+            width: 475px;
+            position: relative;
+            top: 0px;
+        }
+        .left-text{
+            position:absolute;
+            top:55px;
+            right: 1055px;
+            font-family: Georgia, 'Times New Roman', Times, serif ;
+            color: black;
+        }
+        .down-text{
+            position: absolute;
+            top: 400px;
+            left: 25px;
+            font-size: large;
+            text-indent: 25px;
+            /text-align: inherit;/
+            color: black;
+        }
+        span{
+            font-weight: bold;
+        }
+        #logo{
+            background-image: url(https://logowik.com/content/uploads/images/youtube-music7134.jpg);
+            height: 105px;
+            width: 95px;
+            position: fixed;
+            left:1095px;
+            /bottom: 500px;/
+            margin-top: 495px;
+        }
+        .col-2{
+            position: fixed;
+            top: 0px;
+            left: 455px;
+            /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfvg3u6CQAAZRwvWC4A3nase_lsT6OjyhJoR8SbCKFDDxx9xzU2tg2AnTXVEYn-e9JYFY&usqp=CAU);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 755px;
+            height: 655px;*/
+        }
+        .bg-img{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfvg3u6CQAAZRwvWC4A3nase_lsT6OjyhJoR8SbCKFDDxx9xzU2tg2AnTXVEYn-e9JYFY&usqp=CAU);
+            position: relative;
+            /top: 5px;/
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: blur(5px);
+            width: 755px;
+            height: 655px;
+        }
+        .bg-text{
+            font-style: italic ;
+            font-weight: bold;
+            position: absolute;
+            left:55px;
+            margin-top: 25px;
+            color: purple;
+        }
+        .right-text{
+            position: absolute;
+            top:225px;
+            left:55px;
+            color: purple;
+            text-align: justify ;
+        }
+        .rt{
+            position: absolute;
+            top:265px;
+            left:55px;
+            line-height: 25px;
+            font-size: medium;
+            color: purple;
+            text-align: justify ;
+        }
+        .col-2 ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        .col-2 ul li a{
+            /display: inline-block;/
+            text-decoration: none;
+        }
+        #button{
+            border: 3px solid black;
+            padding: 8px 8px 8px 8px;
+        }
+        .col-2 h1{
+            font-style: italic;
+            top:155px;
+        }
+        .link a{
+            position: absolute;
+            top:405px;
+            left:55px;
+            text-decoration: none;
+            color: purple;
+        }
+        #btn{
+            border: 2px groove black;
+            padding: 5px 3px 5px 3px;
+            border-radius: 6px;
+            box-shadow: 4px 5px grey;
+            transition: transform 0.5s;
+        }
+        .link a:hover{
+            transform: translateY(-6px);
+        }
+        #left-text{
+            /background-position: right;/
+            background-size: contain;
+            height: 75px;
+            width: 55px;
+            left: 425px;
+            top: -595px;
+        }
+    </style>
+</head>
+<body>
+        <img src="https://d2c0db5b8fb27c1c9887-9b32efc83a6b298bb22e7a1df0837426.ssl.cf2.rackcdn.com/13427252-anirudh-solo-performance-image-1201x1800.jpeg">
+        <div>
+        <h1 class ="left-text">Music<br>is<br>Passion</h1>
+        <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png" id="left-text">
+        <p class="down-text">Music is a moral law. It gives soul to the universe, wings to <br>the mind, flight to the imagination, and charm and gaiety to<br>life and to everything.Music expresses that which cannot be<br>said and on which it is impossible to be silent.Music is a <br><span>pleasant sound which is acombination of melodies and <br> harmony and which soothes you.</span>Music may also refer to the <br>art of composing such pleasant sounds with the help of the <br>various musical instruments. A person who knows music is a <br>Musician. The music consists of Sargam, Ragas, Taals, etc.</p>
+        <img src="https://logowik.com/content/uploads/images/youtube-music7134.jpg" id="logo">
+        </div>
+        <div class="col-2">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Collections</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#" id ="button">Follow Us</a></li>
+               
+            </ul>
+            <div class="bg-img"></div>
+            <h1 class="bg-text">Anirudh Ravichander</h1>
+            <h3 class="right-text">Check out our new labels</h3>
+            <h5 class="rt">Music is a part of all of our lives,from when we're growing up to when we're old.We grow up to the sound of our mothers singingus lullabies so that we'd go to sleep. Music is one of the most calming and soothing thingd if you let it be. It comes from melodies and tunes strung together by people who sing and play musical instruments.</h5>
+            <div class="link">
+                <a href="#" id="btn">Bookings Open</a>
+            </div>
+       
+</body>
+</html>
